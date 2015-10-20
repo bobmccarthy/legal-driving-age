@@ -9227,6 +9227,9 @@ $form.on('submit', function (e) {
 	if ($input.val() < 1) {
 		x = 'Please enter a valid age';
 	}
+	if ($input.val() > 99) {
+		x = 'Get off the road, Geezer';
+	}
 	$output.html(x);
 	$input.val('');
 });
