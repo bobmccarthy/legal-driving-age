@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	background-color: #E1DA00;
+}
+nav{
+	background: #0EADF4;
+	padding: 0 1em;
+	a:nth-child(2){
+		float: right;
+	}
+}
+input{
+	color: green;
+}
+::-webkit-input-placeholder {
+   color: red;
+}
+:-ms-input-placeholder {  
+   color: red;  
+}
+.btn{
+	background: #6FD4DC;
+}
+button{
+	background: #6FD4DC;
+}
+.result{
+	padding: 2em;
+}
+h2{
+	color: #FF2E08;
+}
+h4{
+	color: #631BCE;
+}
